@@ -39,5 +39,10 @@ public class TicketService {
     @Transactional
     public void deleteById(Long id) {
         ticketRepository.deleteById(id);
+
     }
+    public void editById(Long id){
+
+    }
+
 }
